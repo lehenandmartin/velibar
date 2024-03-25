@@ -1,6 +1,6 @@
 # VeliBar
 
-VeliBar is a [SwiftBar](https://github.com/swiftbar/) plugin that displays the number of available bikes and docks at your chosen [Vélib](https://velib-metropole.fr/) stations in the menu bar.
+VeliBar is a [SwiftBar](https://github.com/swiftbar/) plugin that displays the number of available bikes and docks at your chosen [Vélib](https://www.velib-metropole.fr/) stations in the menu bar.
 
 ![Screenshot](https://raw.githubusercontent.com/lehenandmartin/velibar/main/screenshot.jpg)
 
@@ -39,7 +39,7 @@ If the path to PHP on your system is different from `/opt/homebrew/bin/php`, you
 
 By default, the plugin monitors certain stations. To change which stations are monitored:
 
-1. **Find station codes**: Visit [www.velib-metropole.fr/map]([https://velib-metropole.fr/map](https://www.velib-metropole.fr/map)) to find the codes of the stations you want to monitor.
+1. **Find station codes**: Visit [www.velib-metropole.fr/map](https://www.velib-metropole.fr/map) to find the codes of the stations you want to monitor.
 
 2. **Edit the script**: Open `VeliBar.php` in your text editor and locate the line starting with `$stationsCode =`. Replace the existing station codes with the ones you've chosen.
 
